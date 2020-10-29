@@ -15,20 +15,20 @@ namespace JosephWare
             {
                 if (password == "joseph")
                 {
-                    WriteLine("Logged in successfully!");
+                    WriteLine(@"Logged in successfully!");
                     Program.Joseph();
                 }
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("Password invalid");
+                    Console.WriteLine(@"Password invalid");
                     Console.ReadKey();
                 }
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Username not found!");
+                Console.WriteLine(@"Username not found!");
                 Console.ReadKey();
             }
         }

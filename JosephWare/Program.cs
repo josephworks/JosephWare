@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Net.Mime;
+using System.Windows.Forms;
 using Figgle;
-using JosephWare.commands;
+using JosephWare.gui;
 using static System.Console;
+using Help = JosephWare.commands.Help;
 
 namespace JosephWare
 {
@@ -30,10 +33,19 @@ namespace JosephWare
                     Help.Execute();
                     break;
                 case "exit":
-                    WriteLine("Case 2");
+                    WriteLine(@"Exiting");
+                    Environment.Exit(0);
+                    break;
+                case "about":
+                    if (Environment.UserInteractive)
+                    {
+                        // A console is opened
+                        var aboutBox = new AboutBox();
+                        aboutBox.Show();
+                    }
                     break;
                 default:
-                    WriteLine("Command not found!");
+                    WriteLine(@"Command not found!");
                     break;
             }
             Joseph();
