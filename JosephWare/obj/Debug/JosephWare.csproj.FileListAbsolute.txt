@@ -1,0 +1,10 @@
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\bin\Debug\JosephWare.exe.config
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\bin\Debug\JosephWare.exe
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\bin\Debug\JosephWare.pdb
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\bin\Debug\Figgle.dll
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\bin\Debug\Figgle.xml
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\obj\Debug\JosephWare.csprojAssemblyReference.cache
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\obj\Debug\JosephWare.csproj.CoreCompileInputs.cache
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\obj\Debug\JosephWare.csproj.CopyComplete
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\obj\Debug\JosephWare.exe
+C:\Users\Joseph Robinson\source\repos\JosephWare\JosephWare\obj\Debug\JosephWare.pdb
