@@ -22,7 +22,7 @@ namespace JosephWare
             Console.Beep();
             WriteLine("Logged in successfully!");
             Write("JConsole> ");
-            string command = ReadLine().ToLower();
+            string command = ReadLine()?.ToLower();
             switch (command)
             {
                 case "help":
