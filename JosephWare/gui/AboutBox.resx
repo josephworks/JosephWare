@@ -603,4 +603,7 @@
   <data name="Program_Joseph_Command_not_found_" xml:space="preserve">
 	  <value>Command not found!</value>
   </data>
+  <data name="Program_Main_Press_ESC_to_continue_as_guest" xml:space="preserve">
+	  <value>Press ESC to continue as guest</value>
+  </data>
 </root>
