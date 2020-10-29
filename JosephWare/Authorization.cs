@@ -15,7 +15,7 @@ namespace JosephWare
             {
                 if (password == "joseph")
                 {
-                    Console.BackgroundColor = ConsoleColor.Blue;
+                    WriteLine("Logged in successfully!");
                     Program.Joseph();
                 }
                 else

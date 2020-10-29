@@ -1,5 +1,6 @@
 ﻿using System;
 using Figgle;
+using JosephWare.commands;
 using static System.Console;
 
 namespace JosephWare
@@ -20,13 +21,13 @@ namespace JosephWare
         public static void Joseph()
         {
             Console.Beep();
-            WriteLine("Logged in successfully!");
+            Console.BackgroundColor = ConsoleColor.Blue;
             Write("JConsole> ");
             string command = ReadLine()?.ToLower();
             switch (command)
             {
                 case "help":
-                    WriteLine("Case 1");
+                    Help.Execute();
                     break;
                 case "exit":
                     WriteLine("Case 2");
@@ -35,6 +36,7 @@ namespace JosephWare
                     WriteLine("Command not found!");
                     break;
             }
+            Joseph();
         }
     }
 }
